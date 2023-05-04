@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-05-04T10:39:09.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.7" etag="9OY71psms5VhneHqstLm" type="github">
+  <diagram name="Page-1" id="uM1GbfgmnXlb_0mZn4O3">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Contract Compilation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="375" width="326" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Compilation into bytecode" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="438" y="218" width="206" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Execution by EVM or X-Chain VM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="417" y="302" width="246" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Automated using Remix or Truffle" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="25" width="256" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Smart Contract Creation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry width="355" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Design contract structure" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="79" y="25" width="198" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Coding using smart contract language" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="35" y="109" width="285" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49651999425406407;exitY=1.002673766192268;entryX=0.4993366977624726;entryY=0.0026737661922679227;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4993366977624726;exitY=1.0053475323845358;entryX=0.3560345594461398;entryY=0.005347532384535845;" edge="1" parent="1" source="8" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="177" y="168" />
+              <mxPoint x="469" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49695311240779544;exitY=1.0080212985768038;entryX=0.5015135819349832;entryY=0.008021298576803768;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3859512754022847;exitY=1.002673766192268;entryX=0.9103130405277438;entryY=0.0026737661922679227;" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.6127420715749494;exitY=1.002673766192268;entryX=0.6328737789285481;entryY=0.005347532384535845;" edge="1" parent="1" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="609" y="84" />
+              <mxPoint x="609" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
